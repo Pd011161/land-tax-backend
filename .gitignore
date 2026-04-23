@@ -1,0 +1,111 @@
+# =========================
+# 🔐 Environment Variables
+# =========================
+.env
+*.env
+
+# =========================
+# 🐍 Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# =========================
+# ⚡ FastAPI / Uvicorn
+# =========================
+*.db
+*.sqlite3
+
+# =========================
+# 🤖 ML / AI / Data
+# =========================
+*.h5
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.pickle
+*.pkl
+
+# datasets (ถ้าใหญ่)
+data/
+datasets/
+
+# embeddings / vector db
+faiss_index/
+*.faiss
+*.index
+
+# =========================
+# 🧠 Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+
+# =========================
+# 🌐 Node.js / Frontend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# build output
+.next/
+out/
+dist/
+
+# =========================
+# 🧑‍💻 IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# 🖥️ OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# ☁️ Deployment
+# =========================
+*.pem
+*.key
+*.crt
+
+# =========================
+# 🗂️ Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# 📦 Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# 🔥 Custom (เพิ่มเองได้)
+# =========================
+# frontend/
+ai-poc-speech-to-text-4128b64b33aa.json
