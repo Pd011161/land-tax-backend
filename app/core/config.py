@@ -135,9 +135,13 @@ def get_settings() -> Settings:
         "GOOGLE_MAPS_KEY", gmap_data.pop("api_key", "")
     )
 
+    # ── DB ──────────────────────────────────────────
+    database_url = os.getenv("DATABASE_URL", "")
+
     return Settings(
         app=         AppConfig(**app_data),
         vertex_ai=   VertexAIConfig(**vertex_data),
         google_maps= GoogleMapsConfig(**gmap_data),
         tax=         TaxConfig(**yaml_data.get("tax", {})),
+        database_url= database_url,
     )
